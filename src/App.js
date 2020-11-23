@@ -1,10 +1,13 @@
 
 import './App.css';
+import Cars from './cars';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World Updated</h1>
+      <Cars carType='Corolla'/>
     </div>
   );
 }
